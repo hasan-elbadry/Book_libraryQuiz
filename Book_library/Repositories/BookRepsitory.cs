@@ -46,6 +46,7 @@ namespace Book_library.Repositories
 
         public ICollection<BookDto> GetAll()
         {
+            // ahsandifskfhqelkr.fgerjh;oilkc
            return _context.Books
                 .Include(x => x.Genres)
                 .Include(x => x.Authors)
